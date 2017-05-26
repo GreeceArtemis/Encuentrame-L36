@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/fonts/glyphicons-halflings-regular.svg">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="" id="tarifa">
+      </div>
+      <div class="row">
+        <div class="col-xs-4 col-md-4 ">
+          <div class="row">
+            <div class="col-xs-2 col-md-1">
+              <span class="glyphicon glyphicon-record"></span>
+            </div>
+            <div class=" col-xs-10 col-md-10">
+              <input id="punto-partida" type="text" class="form-control borderWhite" name="" value="" placeholder="Ingresa tu punto de partida">
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-4 col-md-4 ">
+          <div class="row">
+            <div class="col-xs-2 col-md-1">
+              <span class="glyphicon glyphicon-send"></span>
+            </div>
+            <div class=" col-xs-10 col-md-10">
+              <input id="punto-destino" type="text" class="form-control borderWhite" name="" value="" placeholder="Ingresa tu destino">
+            </div>
+          </div>
+        </div>
+         <div class="btn-group col-sx-4 col-md-4">
+          <div class="" >
+            <button class="btn btn-default" type="button" name="button" id="trazar-ruta"class="btn">Trazar ruta</button>
+          </div>
+          <div class="">
+            <button class="btn btn-default" type="button" name="button" id="encuentrame"class="btn">Encuentrame</button>
+
+          </div>
+        </div>
+      </div>
+
+      <div id="map"></div>
+    </div>
+
+
+
+    <script type="text/javascript" src="assets/js/app.js" ></script>
+    <script type="text/javascript" src="assets/js/jquery.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD7b3N12Bfv4-kaVO27NQD0wHNdf2ZKquY&callback=initMap&libraries=places"
+  type="text/javascript"></script>
+
+
+  </body>
+</html>
